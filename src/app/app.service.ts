@@ -14,7 +14,7 @@ export class appservice{
 
     prueba(){
         return this._http.get<any>(`http://localhost:8000/`).subscribe(resp=>{
-        console.log(resp);
+            console.log(resp);
         });;
     }
  
